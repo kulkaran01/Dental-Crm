@@ -1,0 +1,470 @@
+[
+  {
+    "id": "clinic_1763655018352",
+    "name": "The Smile Avenue",
+    "doctorName": "Dr. Parul Gautam",
+    "location": "Trikuta Nagar, Jammu, Jammu and Kashmir",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Other",
+        "number": "9717197567"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Closed - Lost",
+    "notes": "implants , aesthetics , biomimetics\n\nhigh quality of service , your explainaition of issue professionally to your patients .",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    }
+  },
+  {
+    "name": "Elite Smile Dental Clinic",
+    "doctorName": "Dr. Manik Gupta",
+    "location": "near Gole Market, Gandhi Nagar, Jammu, Jammu and Kashmir 180004",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Other",
+        "number": "9622294841"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Closed - Lost",
+    "notes": "4.8 (714)\n\nDipawali video , it is the top end quality of content that is needed to be shown to your leads.\nthat 360 degree view of your operation area.\nvery high level of service but your online presence needs to show it , because people compare the online presence before getting to you personally.\n\n\n\n\nTreatments - \n- Tooth filling\n- Root Canal treatment\n- Dentures\n- Teeth Whitening\n- Cosmetic and tooth treatment\n- laminates and veeners \n\n\n\n",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1763660638932"
+  },
+  {
+    "name": "SMILE SUITE DENTAL CLINIC ",
+    "doctorName": "DR. TANIKA GUPTA",
+    "location": "oppo. VMART, In anantaa pharmacity, Talab Tillo Rd, Jammu, Jammu and Kashmir 180002",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Doctor Personal",
+        "number": "/whatsapp 7889679616"
+      }
+    ],
+    "website": "https://www.instagram.com/smile_suite_dental_clinic/",
+    "clientType": "A",
+    "status": "Closed - Lost",
+    "notes": "4.8 (44 reviews) - very wonderful reviews . we want your customers to see it clearly , what level of service you provide , your office hygine , your work clearly on one website. \n\nyour copy writing are very good , i thing you sure should have a web site .\n\nand your detailed reels should also be embedded into your website . you would get a more profesional identity\n",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1763661566750"
+  },
+  {
+    "name": "Dukhniwaran Dental & Implant Centre",
+    "doctorName": "Dr. Simer Chadha & Team",
+    "location": "Flat no.31 B block Ranjit Avenue, Amritsar, India, Punjab region",
+    "priority": "warm",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "+918528935037"
+      }
+    ],
+    "website": "",
+    "clientType": "B",
+    "status": "Interested",
+    "notes": "https://www.instagram.com/dukhniwarandentalclinic/\n\n",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764015412578"
+  },
+  {
+    "name": "DENTA MED",
+    "doctorName": "Dr. HS Kalsi",
+    "location": "Tarn-Taran, Punjab",
+    "priority": "warm",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "98720 95728"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Closed - Lost",
+    "notes": "✨ Creating Confident Smiles in Tarn-Taran\n🦷 Implants•Braces•Dental Prosthetics\n\nhttps://www.instagram.com/dentamedtt/",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764017658301"
+  },
+  {
+    "name": "Singh Dental Care",
+    "doctorName": "Dr Bikramjeet Singh",
+    "location": "3 Branches in Amritsar-India 🇮🇳",
+    "priority": "warm",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "+91 99144 45804"
+      }
+    ],
+    "website": "https://www.instagram.com/dr_bikram/?hl=en",
+    "clientType": "A",
+    "status": "Follow-up (Next Day)",
+    "notes": "at shark tank . 3 clinics chain . no website . could upsell crm.\n10 DEC",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764065276441"
+  },
+  {
+    "name": "Dr. Bhanu's Dental & Cosmetic Clinic",
+    "doctorName": "Dr. Bhanu Bhuvi",
+    "location": "Jalandher, Punjab",
+    "priority": "hot",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Other",
+        "number": "9115165553"
+      },
+      {
+        "type": "Other",
+        "number": "9041252200"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Interested",
+    "notes": "\nhttps://www.instagram.com/dr_bhanus/",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764087125033"
+  },
+  {
+    "name": "Punjab Dental Clinic & Implant Centre",
+    "doctorName": "Dr.Ankush Goyal (MDS in Oral Surgery) , Dr.Shivani Kaushal Goyal (MDS in RCT Speciality)",
+    "location": "Opposite Petrol Pump , Hanuman Chowk , GT Road , Bathinda",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Doctor Personal",
+        "number": "+91 78146 23023  -  dr. shivani kaushal goyal"
+      },
+      {
+        "type": "Clinic General",
+        "number": "8699559564 - maybe dr. ankush goyal"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Closed - Lost",
+    "notes": "https://www.instagram.com/punjab_dental/\nhttps://www.instagram.com/ankushgoyal007/\n\nImplants and root canal treatment",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764101885962"
+  },
+  {
+    "name": "pabla_dental_clinic",
+    "doctorName": "Dr. Gursimran Singh Pabla",
+    "location": "Banga Road, Near HDFC Bank, Nawanshahr, Punjab 144514",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Doctor Personal",
+        "number": "9815282820"
+      },
+      {
+        "type": "Other",
+        "number": "8264652820"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Morning (Contact)",
+    "notes": "https://www.instagram.com/pabla_dental_clinic/reels/",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764163709267"
+  },
+  {
+    "name": "The Dental Elegance & Cosmetology Centre",
+    "doctorName": "Dr. Aashu Thakran",
+    "location": "Ground Floor, 284/9, Old Railway Rd, near Aryan Hospital, next to Nangia Skin Care, Shivpuri, Sector 7, Gurugram, Haryana 122001",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Other",
+        "number": "+91-9999156696"
+      },
+      {
+        "type": "Other",
+        "number": "+91-9999732059"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "https://www.instagram.com/the_dental_elegance/reels/\n\nDr. Aashu Thakran\nDr Aashu Thakran- BDS-MDS- Endodontist\nDr. Aashu Thakran is a Dentist in Gurgaon and has an experience of 8 years in this field. She has done her bachelor’s degree (BDS) from Manav Rachna Dental College, Faridabad in 2016, and her (MDS) in Conservative Dentistry and Endodontics from J.N. Kapoor D.A.V. Dental College, Yamunanagar in 2021. Dr. Aashu Thakran practices at The Dental Elegance in Gurgaon. She is actively practicing newer and latest technologies for the outcome and quality of services to the patient. She has extensive experience in root canal treatments (RCTs), aesthetic dentistry, crown and bridge work, smile makeovers, and end-to-end dental treatments.\n\n\nServices\n\n    Services Offered At Clinic\n    Cosmetic/Silver Fillings\n    Root Canal Treatment\n    Tooth Extractions\n    Crown & Bridge (Metal/PFM/All Ceramic)\n    Bleaching\n    Removable & Fixed Orthodontic Treatment\n\n\n\nright now using docindia for online consultaion . testimonials before/after - couldnot fill you traffic generater arsnel with the  before/after images ",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764308589272",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi Dr. Aashu Thakran, I'm Kulkaran.\nI help premium dental clinics in Gurugram increase implant/aligner enquiries using a modern, mobile-first website.\n\nI checked The Dental Elegance & Cosmetology Centre online — you're offering premium dental services, but your online presence isn't showing that expert trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair doctor — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like dental services usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "Dr. Aashu Thakran, I made a modern homepage preview for The Dental Elegance & Cosmetology Centre.\nIt's designed to build instant trust for high-ticket cases like dental services.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking doctor — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated dental services page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning Dr. Aashu Thakran 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "Doctor, I'm closing showroom previews today to focus on active projects.\nShould I keep The Dental Elegance & Cosmetology Centre's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-01T16:11:41.312Z"
+  },
+  {
+    "name": "Khanna Dental clinic",
+    "doctorName": "Dr. Varun Khanna ʙ.ᴅ.ꜱ , ᴍ.ɪ.ᴅ.ᴀ , ᴍ.ᴅ.ꜱ (ᴄᴏɴꜱᴇʀᴠᴀᴛɪᴠᴇ & ᴇɴᴅᴏᴅᴏɴᴛɪꜱᴛ) , Dr. Kanika Singh ʙ.ᴅ.ꜱ , ᴍ.ɪ.ᴅ.ᴀ , ᴍ.ᴅ.ꜱ (ᴏʀᴛʜᴏᴅᴏɴᴛɪꜱᴛ)",
+    "location": "Dental Clinic, Khanna, Grand Trunk Rd, opp. Bus Stand, Pipli, Kurukshetra, Haryana 136131",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Other",
+        "number": "7206232889"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Morning (Contact)",
+    "notes": "https://www.instagram.com/khannadentalclinic/reels/\n\nFrom Khanna Dental Clinic Implant and Braces Center\n\"Dr. Varun Khanna - MDS (Endodontist) Dr. Kanika Singh - MDS (Orthodontist) Khanna Dental Clinic - Implant and Orthodontic Center \"We are here to beautify your smiles.\" :)\"\n\n",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764316611632",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi Dr. Varun Khanna, I'm Kulkaran.\nI help premium dental clinics in Kurukshetra increase implant/aligner enquiries using a modern, mobile-first website.\n\nI checked Khanna Dental Clinic online — you're offering implants and braces, but your online presence isn't showing that premium trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair doctor — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like implants and braces usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "Dr. Varun Khanna, I made a modern homepage preview for Khanna Dental Clinic.\nIt's designed to build instant trust for high-ticket cases like implants and braces.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking doctor — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated implants and braces page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning Dr. Varun Khanna 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "Doctor, I'm closing showroom previews today to focus on active projects.\nShould I keep Khanna Dental Clinic's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-01T16:09:41.121Z"
+  },
+  {
+    "name": "Pahuja Dental Clinic",
+    "doctorName": "Dr. Naman Pahuja",
+    "location": "📍Sarang Road, Sonipat, Haryana 📍Sector-15, Sonipat -131001",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Other",
+        "number": "9810745737"
+      },
+      {
+        "type": "Other",
+        "number": "9306682240"
+      }
+    ],
+    "website": "",
+    "clientType": "A",
+    "status": "Morning (Contact)",
+    "notes": "https://www.instagram.com/pahuja.dental.clinic/\n\n2 branches - 📍Sarang Road, Sonipat, Haryana\n📍Sector-15, Sonipat -131001(New One)\n\n\n36 Years of Building Smiles & Trust 🦷\n\nRCT | Crowns | Implants | Aligners | Braces\n\n",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764316661709"
+  },
+  {
+    "name": "Heera Dental Clinic",
+    "doctorName": "",
+    "location": "",
+    "priority": "",
+    "specializations": [],
+    "contacts": [],
+    "website": "",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "https://www.instagram.com/heeradentalclinic/",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764316831562"
+  },
+  {
+    "name": "Shubham Dental Hospital INDRI",
+    "doctorName": "",
+    "location": "",
+    "priority": "",
+    "specializations": [],
+    "contacts": [],
+    "website": "",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "https://www.instagram.com/shubham_dental_hospital_indri/",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764316910307"
+  }
+]

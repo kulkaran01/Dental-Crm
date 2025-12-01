@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "description": "Comprehensive catalog of WhatsApp message templates for dental clinic website sales",
+    "total_categories": 7,
+    "last_updated": "2025-11-24",
+    "usage": "Reference guide for all message templates organized by sales stage and use case"
+  },
+  "template_categories": {
+    "initial_outreach": {
+      "category_name": "Initial Outreach",
+      "description": "First contact with preview",
+      "color": "#3b82f6",
+      "stage": "prospecting",
+      "templates": [
+        {
+          "id": "initial_001",
+          "title": "1️⃣ Initial Preview Message",
+          "timing": "Immediately after creating preview",
+          "condition": "After preparing preview PNG",
+          "use_case": "First message to send with preview image",
+          "message_type": "introduction",
+          "content": "Doctor, I made a modern homepage preview for your clinic.\nIt builds trust for high-ticket treatments like implants and aligners.\n\nHere is the sample 👇"
+        },
+        {
+          "id": "initial_002",
+          "title": "2️⃣ Follow-Up Question",
+          "timing": "5-10 minutes after preview",
+          "condition": "If doctor viewed the image",
+          "use_case": "Create urgency and get commitment to next step",
+          "message_type": "engagement",
+          "content": "Do you want me to create a full homepage version for you? I can share it for free."
+        },
+        {
+          "id": "initial_003",
+          "title": "3️⃣ Follow-Up (2 Hours)",
+          "timing": "2 hours after preview",
+          "condition": "No response yet",
+          "use_case": "First reminder with value addition",
+          "message_type": "follow_up",
+          "content": "Doctor, did you get a chance to see the preview?\nI can upgrade your high-ticket treatment pages too — implants, veneers, aligners."
+        },
+        {
+          "id": "initial_004",
+          "title": "4️⃣ Next Morning Follow-Up",
+          "timing": "Next morning (9-11 AM)",
+          "condition": "Still no response",
+          "use_case": "Re-engage with comparison choice",
+          "message_type": "follow_up",
+          "content": "Doctor, one quick question:\nDo you want a premium or simple website style?\n\nI can show you both options with your clinic photos."
+        },
+        {
+          "id": "initial_005",
+          "title": "5️⃣ Soft Close (Day 3)",
+          "timing": "After 3 days",
+          "condition": "No commitment yet",
+          "use_case": "Create urgency without pressure",
+          "message_type": "soft_close",
+          "content": "Doctor, I'll close your preview file today. \nShould I keep it ready if you plan to upgrade this month?"
+        }
+      ]
+    },
+    "sales_sequence": {
+      "category_name": "Sales Sequence",
+      "description": "After doctor says YES to full homepage",
+      "color": "#10b981",
+      "stage": "qualification",
+      "templates": [
+        {
+          "id": "sales_001",
+          "title": "✅ Step 1: Confirm Direction",
+          "timing": "Immediately after YES",
+          "condition": "Doctor says yes to full homepage",
+          "use_case": "Get style preference to personalize",
+          "message_type": "qualification",
+          "content": "Great doctor! Before I prepare the full homepage, may I ask:\n\nDo you prefer a clean white premium style,\nor a modern teal/blue dental theme?"
+        },
+        {
+          "id": "sales_002",
+          "title": "✅ Step 2: Get Treatment Focus",
+          "timing": "After they answer style preference",
+          "condition": "They chose a style",
+          "use_case": "Understand their high-ticket services",
+          "message_type": "qualification",
+          "content": "Perfect. I'll design the layout based on that.\n\nQuick question — which high-ticket treatments do you want to highlight?\nImplants, aligners, veneers, or smile makeovers?"
+        },
+        {
+          "id": "sales_003",
+          "title": "✅ Step 3: Introduce Pricing",
+          "timing": "After treatment details",
+          "condition": "They shared treatment focus",
+          "use_case": "Transition to pricing discussion",
+          "message_type": "pre_pricing",
+          "content": "Got it doctor. That helps me tailor the design exactly for your clinic.\n\nBefore I proceed, I'll share the pricing options so you can choose the right package."
+        },
+        {
+          "id": "sales_004",
+          "title": "💰 Step 4: Send Pricing",
+          "timing": "Immediately after previous message",
+          "condition": "Ready to present options",
+          "use_case": "Present all package options clearly",
+          "message_type": "pricing",
+          "content": "Here are the options, doctor:\n\n✔ Starter Clinic Website – ₹20,000\n(Homepage + 2 Pages + WhatsApp Booking)\n\n✔ Growth High-Ticket Clinic – ₹35,000\n(Homepage + 1 detailed Treatment Page + Gallery + Reviews)\n+ ₹2,000 per additional treatment page\n\n✔ Premium Implants/Aligners Clinic – ₹60,000\n(Full premium site + copywriting + gallery + booking setup)\n\nWhich one suits you best?"
+        },
+        {
+          "id": "sales_005",
+          "title": "🔒 Step 5: Close & Get Advance",
+          "timing": "After they choose package",
+          "condition": "Doctor selected package",
+          "use_case": "Secure commitment with advance payment",
+          "message_type": "closing",
+          "content": "Perfect doctor. I'll start designing today.\n\nI normally take a 40% advance to begin work.\nHow would you like to proceed? (UPI / Bank Transfer?)"
+        }
+      ]
+    },
+    "objection_handlers": {
+      "category_name": "Objection Handlers",
+      "description": "Responses to common objections",
+      "color": "#f59e0b",
+      "stage": "objection_handling",
+      "templates": [
+        {
+          "id": "objection_001",
+          "title": "❌ \"Send full homepage first\"",
+          "timing": "When doctor asks for free work",
+          "condition": "Doctor wants full site before paying",
+          "use_case": "Protect your time and set boundaries",
+          "objection_type": "free_work_request",
+          "message_type": "objection_response",
+          "content": "Sure doctor, I'll prepare the homepage once the project is confirmed.\n\nThe sample I showed was just a preview.\nFor the full homepage, treatment pages, gallery and booking setup,\nOnce we start, you'll get a fully customized modern design.\n\nWhich package are you considering?\nI can guide you based on your clinic needs."
+        },
+        {
+          "id": "objection_002",
+          "title": "❌ \"Too expensive\"",
+          "timing": "When doctor says price is high",
+          "condition": "Price objection",
+          "use_case": "Reframe as investment with ROI",
+          "objection_type": "price_concern",
+          "message_type": "objection_response",
+          "content": "I understand doctor.\n\nMay I ask — how many implant or aligner enquiries do you get monthly?\n\nEven 2-3 extra cases from a professional website pays for itself.\nOur sites are designed specifically to bring high-ticket patients, not just visitors."
+        },
+        {
+          "id": "objection_003",
+          "title": "❌ \"I'll think about it\"",
+          "timing": "When doctor is hesitating",
+          "condition": "Stalling/delaying",
+          "use_case": "Create urgency politely",
+          "objection_type": "stalling",
+          "message_type": "objection_response",
+          "content": "Of course doctor, take your time.\n\nJust so you know — the preview I made is reserved for you this week.\nAfter that, I'll move it to my portfolio for other clinics.\n\nShall I keep it on hold for you?"
+        },
+        {
+          "id": "objection_004",
+          "title": "❌ \"Already have website\"",
+          "timing": "When they mention existing site",
+          "condition": "Has old website",
+          "use_case": "Turn into opportunity to critique",
+          "objection_type": "existing_solution",
+          "message_type": "objection_response",
+          "content": "That's great doctor!\n\nMay I check it quickly? I can suggest 2-3 quick improvements that bring more implant/aligner enquiries.\n\n(Then point out: slow speed, no WhatsApp CTA, unclear treatments, etc.)"
+        },
+        {
+          "id": "objection_005",
+          "title": "❌ \"Let me ask my partner\"",
+          "timing": "When they need approval",
+          "condition": "Not the decision maker",
+          "use_case": "Get access to real decision maker",
+          "objection_type": "not_decision_maker",
+          "message_type": "objection_response",
+          "content": "Sure doctor!\n\nShall I send the preview and pricing to them directly?\nOr would you like me to explain the options on a quick call with both of you?"
+        }
+      ]
+    },
+    "follow_up_timeline": {
+      "category_name": "Follow-Up Timeline",
+      "description": "When they don't reply after preview",
+      "color": "#8b5cf6",
+      "stage": "nurturing",
+      "templates": [
+        {
+          "id": "followup_001",
+          "title": "⏱️ 2 Hours After Silence",
+          "timing": "2 hours after no reply",
+          "condition": "They viewed but didn't respond",
+          "use_case": "Provide more options to re-engage",
+          "message_type": "follow_up",
+          "content": "Doctor, sharing 2 sample homepage styles for reference 👇\n(white premium vs blue modern dental)\n\nOnce you select the style, I can guide you to the right package."
+        },
+        {
+          "id": "followup_002",
+          "title": "🌅 Next Morning (8-9 AM)",
+          "timing": "Next morning 8-9 AM",
+          "condition": "Still no response",
+          "use_case": "Catch them during morning routine",
+          "message_type": "follow_up",
+          "content": "Good morning doctor 🙂\nDid you get a chance to think about which package suits your clinic?\nI can help you choose based on your implants/aligners focus."
+        },
+        {
+          "id": "followup_003",
+          "title": "⏳ 48 Hours Later",
+          "timing": "2 days after initial contact",
+          "condition": "No commitment yet",
+          "use_case": "Offer quick call to help decide",
+          "message_type": "follow_up",
+          "content": "Doctor, just checking in again.\nIf you want, I can walk you through the 3 package differences in 2 minutes.\nIt will help you decide faster."
+        },
+        {
+          "id": "followup_004",
+          "title": "🗓️ Day 4-5: Soft Close",
+          "timing": "After 4-5 days",
+          "condition": "Long silence",
+          "use_case": "Final urgency without being pushy",
+          "message_type": "soft_close",
+          "content": "Doctor, I'll be closing your preview file today.\nIf you plan to upgrade the website this month, I can keep your slot open.\nJust let me know 🙂"
+        },
+        {
+          "id": "followup_005",
+          "title": "📁 Day 7-10: Archive Message",
+          "timing": "After 7-10 days",
+          "condition": "Final follow-up",
+          "use_case": "Graceful exit while leaving door open",
+          "message_type": "archive",
+          "content": "Doctor, I'll archive this chat for now.\nWhenever you wish to upgrade the clinic website for better implant/aligner conversions,\njust message me — I'll be happy to help 🙂"
+        }
+      ]
+    },
+    "call_scripts": {
+      "category_name": "Call Scripts",
+      "description": "What to say when calling doctors",
+      "color": "#06b6d4",
+      "stage": "phone_outreach",
+      "templates": [
+        {
+          "id": "call_001",
+          "title": "📞 Call After 24-48h Silence",
+          "timing": "When they viewed but didn't reply",
+          "condition": "They've seen messages",
+          "use_case": "Direct call to close the deal",
+          "message_type": "phone_script",
+          "content": "Hello doctor, hope I'm not disturbing you.\nJust following up because I wanted to confirm the homepage style\n(white premium vs blue modern dental)\nbefore I keep your project slot open.\n\n[Pause for response]\n\nBetween the ₹20k, ₹35k and ₹60k plans,\nwhich one are you leaning towards?"
+        },
+        {
+          "id": "call_002",
+          "title": "📞 Quick 1-Minute Call",
+          "timing": "When they were positive but busy",
+          "condition": "They replied earlier positively",
+          "use_case": "Quick confirmation call",
+          "message_type": "phone_script",
+          "content": "Doctor just a quick call, 1 minute only — wanted to confirm homepage style and your package preference.\n\n[Keep it short and direct]\n\n[Ask: Which package works for you - Starter/Growth/Premium?]"
+        },
+        {
+          "id": "call_003",
+          "title": "📞 When They Said 'Call Later'",
+          "timing": "Exactly when they asked",
+          "condition": "They specified callback time",
+          "use_case": "Scheduled callback",
+          "message_type": "phone_script",
+          "content": "Hello doctor, you mentioned I could call at this time.\n\nI've prepared 2 homepage style options for your clinic.\nShall I send them to your WhatsApp now?\n\n[Get WhatsApp and send samples]\n\n[Then discuss package options]"
+        },
+        {
+          "id": "call_004",
+          "title": "📞 Cold Call Script (New Lead)",
+          "timing": "First contact call",
+          "condition": "Haven't messaged yet",
+          "use_case": "Initial cold call to get WhatsApp",
+          "message_type": "phone_script",
+          "content": "Hello, this is [Your Name]. Am I speaking with Dr. [Name]?\n\n[Wait]\n\nDoctor, I make modern websites specifically for high-ticket dental clinics — implants, aligners, veneers.\n\nI've created a free homepage preview for your clinic.\nCan I send it to your WhatsApp? It's just a 10-second look.\n\n[Get WhatsApp number]\n\n[Send preview immediately]"
+        },
+        {
+          "id": "call_005",
+          "title": "📞 Follow-Up Call (After Preview Sent)",
+          "timing": "30 min after sending preview",
+          "condition": "Preview sent on WhatsApp",
+          "use_case": "Confirm they received and get feedback",
+          "message_type": "phone_script",
+          "content": "Doctor, did you get a chance to see the preview I sent?\n\n[Wait for feedback]\n\n[If positive:]\nGreat! I can create the full homepage.\nWould you prefer a premium white style or modern blue dental theme?\n\n[Lead into package discussion]"
+        }
+      ]
+    },
+    "closing_scripts": {
+      "category_name": "Closing Scripts",
+      "description": "Final push messages",
+      "color": "#ef4444",
+      "stage": "closing",
+      "templates": [
+        {
+          "id": "closing_001",
+          "title": "🎯 Urgency Close",
+          "timing": "Day 4-5",
+          "condition": "Interested but not committed",
+          "use_case": "Create scarcity to push decision",
+          "message_type": "hard_close",
+          "content": "Doctor, I have 2 clinic projects starting this week.\n\nI can only take 1 more this month.\nIf you want me to work on yours, shall I reserve the slot?"
+        },
+        {
+          "id": "closing_002",
+          "title": "🎯 Value Close",
+          "timing": "When showing results",
+          "condition": "Doctor is analytical",
+          "use_case": "Highlight competitive disadvantage",
+          "message_type": "value_close",
+          "content": "Doctor, here's what happens:\n\n❌ Generic website → Patients go to competitor\n✅ Premium high-ticket site → Patients book consultation\n\nYour competitors are already doing this.\nShall we make sure you don't lose patients?"
+        },
+        {
+          "id": "closing_003",
+          "title": "🎯 Time-Limited Discount",
+          "timing": "Week-end special",
+          "condition": "End of week/month",
+          "use_case": "Price incentive for immediate decision",
+          "message_type": "discount_close",
+          "content": "Doctor, I'm giving 15% off for clinics who start this week.\n\nGrowth package becomes ₹29,750 (instead of ₹35,000).\n\nShall I lock this price for you?"
+        }
+      ]
+    },
+    "psychology_and_rules": {
+      "category_name": "Psychology & Rules",
+      "description": "Understanding doctor behavior & strategy",
+      "color": "#ec4899",
+      "stage": "knowledge_base",
+      "templates": [
+        {
+          "id": "psychology_001",
+          "title": "🧠 Doctor Psychology",
+          "timing": "Remember always",
+          "condition": "Core understanding",
+          "use_case": "Internal reference for mindset",
+          "message_type": "knowledge",
+          "content": "DOCTOR'S DAY:\n• Morning OPD\n• Afternoon procedures\n• Evening OPD\n• Family time\n• Emergency calls\n• Clinic management\n\n✅ NO REPLY ≠ REJECTION\n✅ They are just BUSY\n\nMost deals close:\n→ 9-11 PM (night)\n→ 7-9 AM (morning)\n→ Next day\n→ Even 3-5 days later\n\n📊 REALITY CHECK:\n• 20-30% clients reply\n• 5-10% convert\n• Rest reply 7-10 days later\n\nDON'T PANIC — Stay consistent!"
+        },
+        {
+          "id": "psychology_002",
+          "title": "🚫 NEVER Do This",
+          "timing": "Critical rules",
+          "condition": "Protect yourself",
+          "use_case": "Boundaries to maintain",
+          "message_type": "rules",
+          "content": "❌ NEVER build full homepage before payment\n❌ NEVER give more than preview PNG\n❌ NEVER design extra pages for free\n❌ NEVER skip asking for advance (40%)\n❌ NEVER look desperate\n\n✅ ONLY start work after payment\n✅ ONLY give preview as bait\n✅ ONLY follow-up professionally\n✅ ONLY show confidence\n\nREMEMBER:\nEven 1 deal = ₹20k-₹60k\nYour time is valuable!"
+        },
+        {
+          "id": "psychology_003",
+          "title": "📅 Follow-Up Schedule",
+          "timing": "Exact timeline",
+          "condition": "After they stop replying",
+          "use_case": "Timing reference guide",
+          "message_type": "schedule",
+          "content": "EXACT TIMING:\n\n⏱️ 2 hours → First reminder\n🌅 Next morning → Second message\n⏳ 48 hours → Clarification offer\n🗓️ Day 4-5 → Soft close\n📁 Day 7-10 → Archive message\n\n📞 WHEN TO CALL:\n• After 24-48h if they've seen messages\n• When they said \"call later\"\n• When they replied positively but went silent\n\nKEEP IT SHORT:\nDoctors prefer 1-2 minute calls!"
+        },
+        {
+          "id": "psychology_004",
+          "title": "💡 Success Mindset",
+          "timing": "Daily reminder",
+          "condition": "Keep motivation high",
+          "use_case": "Motivation and strategy reminder",
+          "message_type": "mindset",
+          "content": "YOUR POWER:\n✅ Fast design skills\n✅ Good templates\n✅ Professional communication\n✅ Understanding doctor psychology\n\nYOUR ROUTINE:\n• Find 4-5 clinics (night)\n• Make 4-5 previews (night)\n• Call/message (morning)\n• Follow-up (throughout week)\n\nSUCCESS FORMULA:\nMany leads + Consistency + Good previews\n= ₹20k-₹60k deals\n\nEven if 9 ignore you,\n1 deal pays for all effort!"
+        }
+      ]
+    }
+  },
+  "quick_reference": {
+    "client_types": {
+      "type_a": {
+        "description": "No Website",
+        "characteristics": "Know they need one but delaying",
+        "pain_points": ["Cost", "Technical hassle", "Wasting money"],
+        "conversion_rate": "High - Close FAST",
+        "approach": "Handle everything - design, content, photos, hosting"
+      },
+      "type_b": {
+        "description": "Bad/Outdated Website",
+        "characteristics": "Best target - premium clinic with poor online presence",
+        "pain_points": ["Looks old", "Weak gallery", "No credibility", "No mobile responsiveness", "Slow site", "No treatment pages"],
+        "conversion_rate": "Best - Close with visual comparison",
+        "approach": "Show contrast between clinic quality and website quality"
+      },
+      "type_c": {
+        "description": "Good Website",
+        "characteristics": "Rare but pay high",
+        "pain_points": ["Want landing pages", "Appointment flow improvement", "Treatment-specific pages", "Better branding"],
+        "conversion_rate": "Medium but high value",
+        "approach": "Focus on specific high-ticket treatment pages"
+      }
+    },
+    "pricing_packages": {
+      "starter": {
+        "price": "₹20,000",
+        "includes": ["Homepage", "2 Pages", "WhatsApp Booking"],
+        "target_client": "Type A - No website"
+      },
+      "growth": {
+        "price": "₹35,000",
+        "includes": ["Homepage", "1 detailed Treatment Page", "Gallery", "Reviews"],
+        "addon": "₹2,000 per additional treatment page",
+        "target_client": "Type B - Outdated website"
+      },
+      "premium": {
+        "price": "₹60,000",
+        "includes": ["Full premium site", "Copywriting", "Gallery", "Booking setup"],
+        "target_client": "Type C or high-end Type B"
+      }
+    },
+    "best_contact_times": {
+      "morning": "7-9 AM - Before clinic starts",
+      "night": "9-11 PM - After family time",
+      "avoid": "Morning OPD, afternoon procedures, evening OPD"
+    },
+    "conversion_metrics": {
+      "reply_rate": "20-30%",
+      "conversion_rate": "5-10%",
+      "delayed_replies": "Most replies come 7-10 days later"
+    }
+  }
+}

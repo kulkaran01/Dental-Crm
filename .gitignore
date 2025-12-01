@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Environment files (if you add any)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Backup files
+backups/*.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# IMPORTANT: We DO want data.json in Git so Netlify can fetch it
+# DO NOT add data.json to .gitignore!
