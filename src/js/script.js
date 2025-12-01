@@ -1110,6 +1110,7 @@ This is your bait to open the conversation.
             if (clinic.personalizedTemplates) {
                 generateBtn.textContent = '👁️ View Personalized Templates';
                 generateBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
+                generateBtn.disabled = false; // Always enable when templates exist
             } else {
                 if (isReadOnly) {
                     generateBtn.textContent = '📭 No Templates Generated Yet';
