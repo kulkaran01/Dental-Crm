@@ -1966,12 +1966,6 @@ Remember: Subtle personalization, not rewriting!`;
     // --- INITIALIZATION ---
 
     const initialize = async () => {
-        // Show read-only banner if on Netlify
-        if (window.ENV_CONFIG?.features.showReadOnlyBanner) {
-            document.getElementById('readonly-banner').style.display = 'block';
-            console.log('📖 Running in READ-ONLY mode (Netlify deployment)');
-        }
-
         // Hide "Add Clinic" button in production
         if (!window.ENV_CONFIG?.features.canAddClinic) {
             const addBtn = document.getElementById('add-clinic-btn');
