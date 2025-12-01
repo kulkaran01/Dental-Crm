@@ -5,7 +5,7 @@ const isProduction = window.location.hostname !== 'localhost' &&
                      window.location.hostname !== '127.0.0.1' &&
                      !window.location.hostname.includes('192.168'); // Also detect local network IPs
 
-const config = {
+const envConfig = {
     isProduction: isProduction,
     isLocalhost: !isProduction,
 
@@ -30,15 +30,15 @@ const config = {
 };
 
 // Export for use in other files
-window.ENV_CONFIG = config;
+window.ENV_CONFIG = envConfig;
 
 // Log environment on load (helpful for debugging)
-console.log('🌍 Environment:', config.environment);
-console.log('📍 Hostname:', config.hostname);
-console.log('🔧 Features:', config.features);
+console.log('🌍 Environment:', envConfig.environment);
+console.log('📍 Hostname:', envConfig.hostname);
+console.log('🔧 Features:', envConfig.features);
 
 // Warn if GitHub URL not configured in production
-if (isProduction && config.dataUrl.includes('YOUR_USERNAME')) {
+if (isProduction && envConfig.dataUrl.includes('YOUR_USERNAME')) {
     console.error('⚠️ GitHub URL not configured! Update YOUR_USERNAME in src/js/environment.js');
     alert('Configuration Error: GitHub data URL not set. Please contact administrator.');
 }
