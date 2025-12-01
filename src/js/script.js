@@ -881,18 +881,12 @@ This is your bait to open the conversation.
         `;
 
         // Add click handler for card (but not the download button)
-        // Only allow editing in development mode
-        if (window.ENV_CONFIG?.features.canEdit) {
-            card.addEventListener('click', (e) => {
-                if (!e.target.classList.contains('download-btn')) {
-                    openModal(clinic.id);
-                }
-            });
-        } else {
-            // In production, just show tooltip
-            card.style.cursor = 'default';
-            card.title = '👁️ Read-only mode - Run locally to edit';
-        }
+        // Allow viewing in both development and production modes
+        card.addEventListener('click', (e) => {
+            if (!e.target.classList.contains('download-btn')) {
+                openModal(clinic.id);
+            }
+        });
 
         // Add download button handler
         const downloadBtn = card.querySelector('.download-btn');
@@ -1081,9 +1075,11 @@ This is your bait to open the conversation.
         aiOutput.innerHTML = ''; // Ensure innerHTML for AI output
         currentSpecializations = []; // Reset specializations
 
+        const isReadOnly = !window.ENV_CONFIG?.features.canEdit;
+
         if (clinicId) {
-            // Editing existing clinic
-            modalTitle.textContent = 'Edit Clinic';
+            // Editing existing clinic (or viewing in read-only mode)
+            modalTitle.textContent = isReadOnly ? 'View Clinic Details' : 'Edit Clinic';
             let clinics = await getClinics();
             const clinic = clinics.find(c => c.id === clinicId);
 
@@ -1107,7 +1103,7 @@ This is your bait to open the conversation.
             document.getElementById('clinic-notes').value = clinic.notes;
 
             renderColdCallChecklist(clinic.coldCallChecklist);
-            deleteBtn.style.display = 'inline-block';
+            deleteBtn.style.display = isReadOnly ? 'none' : 'inline-block';
 
             // Update generate button text based on whether templates exist
             const generateBtn = document.getElementById('generate-personalized-templates-btn');
@@ -1115,8 +1111,15 @@ This is your bait to open the conversation.
                 generateBtn.textContent = '👁️ View Personalized Templates';
                 generateBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
             } else {
-                generateBtn.textContent = '🤖 Generate Personalized Templates';
-                generateBtn.style.background = 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)';
+                if (isReadOnly) {
+                    generateBtn.textContent = '📭 No Templates Generated Yet';
+                    generateBtn.style.background = '#9ca3af';
+                    generateBtn.disabled = true;
+                } else {
+                    generateBtn.textContent = '🤖 Generate Personalized Templates';
+                    generateBtn.style.background = 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)';
+                    generateBtn.disabled = false;
+                }
             }
         } else {
             // Adding new clinic
@@ -1133,6 +1136,40 @@ This is your bait to open the conversation.
             const generateBtn = document.getElementById('generate-personalized-templates-btn');
             generateBtn.textContent = '🤖 Generate Personalized Templates';
             generateBtn.style.background = 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)';
+            generateBtn.disabled = false;
+        }
+
+        // Make form read-only in production
+        if (isReadOnly) {
+            // Disable all form inputs
+            form.querySelectorAll('input, textarea, select, button').forEach(element => {
+                if (element.id !== 'generate-personalized-templates-btn' &&
+                    element.id !== 'cancel-btn') {
+                    element.disabled = true;
+                }
+            });
+
+            // Hide Save, Delete, AI Assist, and Add Contact buttons
+            document.getElementById('save-clinic-btn').style.display = 'none';
+            document.getElementById('delete-clinic-btn').style.display = 'none';
+            document.getElementById('ai-assist-section').style.display = 'none';
+            document.getElementById('add-contact-number-btn').style.display = 'none';
+
+            // Change Cancel button to Close
+            document.getElementById('cancel-btn').textContent = 'Close';
+        } else {
+            // Re-enable all form inputs in development mode
+            form.querySelectorAll('input, textarea, select, button').forEach(element => {
+                element.disabled = false;
+            });
+
+            // Show all buttons
+            document.getElementById('save-clinic-btn').style.display = 'inline-block';
+            document.getElementById('ai-assist-section').style.display = 'block';
+            document.getElementById('add-contact-number-btn').style.display = 'block';
+
+            // Reset Cancel button text
+            document.getElementById('cancel-btn').textContent = 'Cancel';
         }
 
         modal.style.display = 'flex';
