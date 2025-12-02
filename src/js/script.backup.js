@@ -1,25 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- TOAST NOTIFICATIONS ---
-    function showToast(message, type = 'success') {
-        const toast = document.createElement('div');
-        toast.className = `toast toast-${type}`;
-        toast.textContent = message;
-        document.body.appendChild(toast);
-
-        // Force reflow to ensure transition works
-        void toast.offsetWidth;
-
-        setTimeout(() => {
-            toast.classList.add('show');
-        }, 10);
-
-        setTimeout(() => {
-            toast.classList.remove('show');
-            setTimeout(() => toast.remove(), 300);
-        }, 3000);
-    }
-
     // --- CONFIGURATION & INITIAL STATE ---
 
     const WORKFLOW_TEXT = `{
@@ -677,7 +657,6 @@ This is your bait to open the conversation.
         "Follow-up (Next Day)", 
         "Follow-up (3 Day)",
         "Interested", 
-        "Cold (No Response)",
         "Closed - Won", 
         "Closed - Lost"
     ];
@@ -753,16 +732,9 @@ This is your bait to open the conversation.
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(clinics, null, 2) // Pretty-print the JSON
             });
-            if (response.ok) {
-                console.log('✅ Success');
-                showToast('Changes saved successfully', 'success');
-            } else {
-                console.log('❌ Failed');
-                showToast('Failed to save changes', 'error');
-            }
+            console.log('Save response:', response.ok ? '✅ Success' : '❌ Failed');
         } catch (error) {
             console.error('Failed to save clinics:', error);
-            showToast('Error saving data', 'error');
         }
     };
 
@@ -823,25 +795,8 @@ This is your bait to open the conversation.
     };
 
     const renderBoard = async () => {
-        // Show Skeleton Loading State
-        if (board.children.length === 0) {
-             board.innerHTML = '';
-             COLUMNS.forEach(columnName => {
-                const columnEl = document.createElement('div');
-                columnEl.className = 'column';
-                columnEl.innerHTML = `
-                    <div class="column-header">${columnName}</div>
-                    <div class="clinic-cards">
-                        <div class="skeleton-card"></div>
-                        <div class="skeleton-card" style="opacity: 0.6"></div>
-                    </div>
-                `;
-                board.appendChild(columnEl);
-            });
-        }
-
-        let clinics = await getClinics();
         board.innerHTML = '';
+        let clinics = await getClinics();
 
         COLUMNS.forEach(columnName => {
             const columnEl = document.createElement('div');
@@ -857,19 +812,10 @@ This is your bait to open the conversation.
 
             const cardsContainer = columnEl.querySelector('.clinic-cards');
 
-            if (filteredClinics.length === 0) {
-                cardsContainer.innerHTML = `
-                    <div class="empty-column-state">
-                        <div class="empty-icon">📋</div>
-                        <p>No clinics in this stage yet</p>
-                    </div>
-                `;
-            } else {
-                filteredClinics.forEach(clinic => {
-                    const card = createClinicCard(clinic);
-                    cardsContainer.appendChild(card);
-                });
-            }
+            filteredClinics.forEach(clinic => {
+                const card = createClinicCard(clinic);
+                cardsContainer.appendChild(card);
+            });
 
             board.appendChild(columnEl);
         });
@@ -917,7 +863,7 @@ This is your bait to open the conversation.
         // Add specialization chips
         if (clinic.specializations && Array.isArray(clinic.specializations)) {
             clinic.specializations.forEach(spec => {
-                chipsHTML += `<span class="chip chip-specialization" data-spec="${spec}">🦷 ${spec}</span>`;
+                chipsHTML += `<span class="chip chip-specialization">🦷 ${spec}</span>`;
             });
         }
         chipsHTML += '</div>';
@@ -1978,33 +1924,6 @@ Remember: Subtle personalization, not rewriting!`;
 
     // --- EVENT LISTENERS ---
 
-    // Mobile Templates Toggle
-    const templatesSection = document.getElementById('copy-paste-section');
-    const templatesHeader = templatesSection.querySelector('h2');
-    
-    if (templatesHeader) {
-        templatesHeader.addEventListener('click', () => {
-            if (window.innerWidth <= 768) {
-                templatesSection.classList.toggle('expanded');
-            }
-        });
-    }
-
-    // Expand Notes Button
-    const expandNotesBtn = document.getElementById('expand-notes-btn');
-    const clinicNotesTextarea = document.getElementById('clinic-notes');
-    
-    if (expandNotesBtn && clinicNotesTextarea) {
-        expandNotesBtn.addEventListener('click', () => {
-            clinicNotesTextarea.classList.toggle('expanded-textarea');
-            if (clinicNotesTextarea.classList.contains('expanded-textarea')) {
-                expandNotesBtn.textContent = '⤡ Shrink';
-            } else {
-                expandNotesBtn.textContent = '⤢ Expand';
-            }
-        });
-    }
-
     addClinicBtn.addEventListener('click', () => openModal());
     cancelBtn.addEventListener('click', closeModal);
     form.addEventListener('submit', saveClinic);
@@ -2013,26 +1932,6 @@ Remember: Subtle personalization, not rewriting!`;
 
     viewWorkflowBtn.addEventListener('click', () => workflowModal.style.display = 'flex');
     closeWorkflowBtn.addEventListener('click', () => workflowModal.style.display = 'none');
-
-    // Sidebar Toggle
-    const toggleSidebarBtn = document.getElementById('toggle-sidebar-btn');
-    if (toggleSidebarBtn) {
-        toggleSidebarBtn.addEventListener('click', () => {
-            document.body.classList.toggle('sidebar-active');
-            // Save preference
-            const isActive = document.body.classList.contains('sidebar-active');
-            localStorage.setItem('sidebarActive', isActive);
-            
-            // Update button text
-            toggleSidebarBtn.textContent = isActive ? '💬 Close Scripts' : '💬 Scripts';
-        });
-
-        // Restore preference
-        if (localStorage.getItem('sidebarActive') === 'true') {
-            document.body.classList.add('sidebar-active');
-            toggleSidebarBtn.textContent = '💬 Close Scripts';
-        }
-    }
 
     aiSummarizeBtn.addEventListener('click', handleAiSummarize);
 

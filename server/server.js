@@ -9,6 +9,7 @@ const DATA_FILE = path.join(ROOT_DIR, 'data.json');
 const server = http.createServer((req, res) => {
     // API endpoint for getting clinics
     if (req.url === '/api/clinics' && req.method === 'GET') {
+        console.log('Reading data from:', DATA_FILE);
         fs.readFile(DATA_FILE, 'utf8', (err, data) => {
             if (err) {
                 // If the file doesn't exist, return an empty array

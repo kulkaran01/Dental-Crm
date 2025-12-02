@@ -78,10 +78,14 @@
       {
         "type": "Clinic General",
         "number": "+918528935037"
+      },
+      {
+        "type": "Doctor Personal",
+        "number": "8528935037"
       }
     ],
     "website": "",
-    "clientType": "B",
+    "clientType": "A",
     "status": "Interested",
     "notes": "https://www.instagram.com/dukhniwarandentalclinic/\n\n",
     "coldCallChecklist": {
@@ -209,7 +213,7 @@
     ],
     "website": "",
     "clientType": "A",
-    "status": "Morning (Contact)",
+    "status": "Cold (No Response)",
     "notes": "https://www.instagram.com/pabla_dental_clinic/reels/",
     "coldCallChecklist": {
       "0": false,
@@ -327,7 +331,7 @@
     ],
     "website": "",
     "clientType": "A",
-    "status": "Morning (Contact)",
+    "status": "Cold (No Response)",
     "notes": "https://www.instagram.com/khannadentalclinic/reels/\n\nFrom Khanna Dental Clinic Implant and Braces Center\n\"Dr. Varun Khanna - MDS (Endodontist) Dr. Kanika Singh - MDS (Orthodontist) Khanna Dental Clinic - Implant and Orthodontic Center \"We are here to beautify your smiles.\" :)\"\n\n",
     "coldCallChecklist": {
       "0": false,
@@ -422,7 +426,7 @@
     ],
     "website": "",
     "clientType": "A",
-    "status": "Morning (Contact)",
+    "status": "Cold (No Response)",
     "notes": "https://www.instagram.com/pahuja.dental.clinic/\n\n2 branches - 📍Sarang Road, Sonipat, Haryana\n📍Sector-15, Sonipat -131001(New One)\n\n\n36 Years of Building Smiles & Trust 🦷\n\nRCT | Crowns | Implants | Aligners | Braces\n\n",
     "coldCallChecklist": {
       "0": false,
@@ -501,38 +505,596 @@
   },
   {
     "name": "Heera Dental Clinic",
-    "doctorName": "",
-    "location": "",
+    "doctorName": "yj",
+    "location": "Shop No. 1, Subhash Rd, near Hanuman Mandir, Bhagwan Das Colony, Rohtak, Haryana 124001",
     "priority": "",
     "specializations": [],
-    "contacts": [],
+    "contacts": [
+      {
+        "type": "Other",
+        "number": "9588778012"
+      },
+      {
+        "type": "Other",
+        "number": "80599 78508"
+      }
+    ],
     "website": "",
     "clientType": "A",
     "status": "Night (Preparation)",
-    "notes": "https://www.instagram.com/heeradentalclinic/",
+    "notes": "https://www.instagram.com/heeradentalclinic/\n",
     "coldCallChecklist": {
       "0": false,
       "1": false,
       "2": false
     },
-    "id": "clinic_1764316831562"
+    "id": "clinic_1764316831562",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi, I'm Kulkaran.\nI help premium dental clinics in Rohtak increase implant/aligner enquiries using a modern, mobile-first website.\n\nI checked Heera Dental Clinic online — you're offering dental services, but your online presence isn't showing that premium trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like dental services usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "I made a modern homepage preview for Heera Dental Clinic.\nIt's designed to build instant trust for high-ticket cases like dental services.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated dental services page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "I'm closing showroom previews today to focus on active projects.\nShould I keep Heera Dental Clinic's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-02T21:40:08.294Z"
   },
   {
-    "name": "Shubham Dental Hospital INDRI",
-    "doctorName": "",
-    "location": "",
+    "name": "K.S. Dental Clinic",
+    "doctorName": "Dr. Dinesh Pawar, Dr. Chandrika Saini",
+    "location": "Sonipat Rd, Sector-33, Bohar, Rohtak, Haryana 124021",
     "priority": "",
-    "specializations": [],
-    "contacts": [],
+    "specializations": [
+      "Cosmetic Dentistry",
+      "Orthodontics",
+      "Oral Surgery",
+      "Root Canal Therapy",
+      "Pediatric Dentistry",
+      "Prosthodontics"
+    ],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "094163 12417"
+      },
+      {
+        "type": "Other",
+        "number": "8059978508"
+      }
+    ],
     "website": "",
     "clientType": "A",
     "status": "Night (Preparation)",
-    "notes": "https://www.instagram.com/shubham_dental_hospital_indri/",
+    "notes": "Instagram: @k.s.dental.clinic (17 posts, 181 followers)\nInstagram Bio: \"Create beautiful smile 😁 👨‍⚕️@dr.dineshpawar002 🧑‍⚕️@sainichandrika ☎️contact no 8059978508\"\n\nGoogle Rating: 5.0 ⭐ (20 reviews)\nHours: 9 AM - 8 PM\nWhatsApp: wa.me/918059978508\n\nDr. Dinesh Pawar Instagram: @dr.dineshpawar002 (47 posts, 1,065 followers)\nBio: \"Smile Enhancer. Smile Lifter. Dentist. 🦷🥼🩺\"\n\nServices offered:\n- Cosmetic dentistry\n- Orthodontics\n- Oral surgery\n- Root canal therapy\n- Pediatric dentistry\n- Prosthodontics\n- Smile makeovers",
     "coldCallChecklist": {
       "0": false,
       "1": false,
       "2": false
     },
-    "id": "clinic_1764316910307"
+    "id": "clinic_1733066400002",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi Dr. Dinesh Pawar, Dr. Chandrika Saini, I'm Kulkaran.\nI help premium dental clinics in Rohtak increase implant/aligner enquiries using a modern, mobile-first website.\n\nI checked K.S. Dental Clinic online — you're offering cosmetic dentistry and orthodontics, but your online presence isn't showing that premium trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair doctor — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like cosmetic dentistry and orthodontics usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "Dr. Dinesh Pawar, Dr. Chandrika Saini, I made a modern homepage preview for K.S. Dental Clinic.\nIt's designed to build instant trust for high-ticket cases like cosmetic dentistry and orthodontics.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking doctor — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated cosmetic dentistry page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning Dr. Dinesh Pawar, Dr. Chandrika Saini 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "Doctor, I'm closing showroom previews today to focus on active projects.\nShould I keep K.S. Dental Clinic's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-02T21:27:24.137Z"
+  },
+  {
+    "name": "Arora Dental Care - ADC",
+    "doctorName": "Dr. Harsimran Singh",
+    "location": "Gate no 2, Arora dental care, Sultanpur Rd, near Rcf, opp. Guru Ravidas Gurudwara, Hussainpur, Kapurthala, Rawal, Punjab 144602",
+    "priority": "",
+    "specializations": [
+      "Endo consultation"
+    ],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "7340866175"
+      }
+    ],
+    "website": "https://www.instagram.com/docsinghsimran",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "Facebook: DrHarsimran Singh (5.1K followers, 596 following)\nInstagram (@docsinghsimran): 1,003 posts, 1,962 followers, 1,735 following\nInstagram (@aroradental_care): 270 posts, 340 followers, 415 following\nGoogle Maps rating: 5.0 stars (59 Google reviews)\nHours: Open · Closes 8 pm\nServices: \"We are providing best dental services in your city with work experience of chandigarh Guaranteed quality is provided by us\"",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1701509930739",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi Dr. Harsimran Singh, I'm Kulkaran.\nI help premium dental clinics in Rawal increase implant/aligner enquiries using a modern, mobile-first website.\n\nI checked Arora Dental Care - ADC online — you're offering Endo consultation, but your online presence isn't showing that premium trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair doctor — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like Endo consultation usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "Dr. Harsimran Singh, I made a modern homepage preview for Arora Dental Care - ADC.\nIt's designed to build instant trust for high-ticket cases like Endo consultation.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking doctor — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated Endo consultation page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning Dr. Harsimran Singh 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "Doctor, I'm closing showroom previews today to focus on active projects.\nShould I keep Arora Dental Care - ADC's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-02T21:27:59.597Z"
+  },
+  {
+    "name": "Dr. Narinder Dental Implant Center",
+    "doctorName": "Dr. Narinder Kumar",
+    "location": "Guru Vihar Chowk, Guru Vihar Rd, adjacent to HDFC ATM, Chander Lok Colony, Jodhewal, Ludhiana, Punjab 141007",
+    "priority": "",
+    "specializations": [
+      "Implants"
+    ],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "094633 52016"
+      }
+    ],
+    "website": "https://sites.google.com/view/dndic/home",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "Chain of clinics (DNDIC, GlowDent Spark, Mahi Dental Care). \nInstagram: @dr.narinderdentalimplantcenter (165 followers) \nInstagram: @narinderkumar.91 \nGoogle Rating: 5.0 (16 reviews) \nHours: Open · Closes 10 pm \nDr. Narinder Kumar is the Head and Chairperson.\n\n---\n🛑 **BUSINESS MODEL DEEP DIVE (Hub-and-Spoke Strategy)**\n\n1. **The Structure: Family-Owned Group Practice**\n   - This is a \"Mini-Chain\" enterprise run by the \"Power Couple\": **Dr. Narinder Kumar** (The \"Face\" & Chairperson) and **Dr. Rupinder Kaur Mahi** (The Specialist Operator).\n   - They don't run one massive hospital; they use a **Multi-Location Strategy** to capture the entire Ludhiana market (North, West, and East).\n\n2. **The Role of THIS Clinic (DNDIC - Basti Jodhewal)**\n   - **The Flagship / Surgical Hub.**\n   - Located in a dense, high-traffic area. The name \"Implant Center\" signals high-ticket surgical authority.\n   - This is where the heavy lifting (implants, complex surgeries) likely happens.\n\n3. **The Marketing Engine**\n   - **Personal Branding:** Dr. Narinder is building himself as a thought leader (Podcasts on \"The Sukh Talks\", Educational Reels).\n   - **Content Machine:** They actively create video content to build trust *before* the patient walks in.\n\n4. 🎯 **SALES ANGLE (The Pitch)**\n   - **The Pain Point:** They have 3 distinct brands but a fragmented digital presence. Their current website (Google Sites) looks like a small single clinic, not the \"Corporate Group\" they actually are.\n   - **The Solution:** Pitch a **\"Unified Digital HQ\"**. A premium website that showcases the entire *Group* but allows patients to book at this specific flagship branch.\n   - **High-Ticket Conversion:** Since this is the *Implant* hub, the CRM is vital to ensure high-value leads from Instagram don't get lost in DMs.",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764679492613_1",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi Dr. Narinder Kumar, I'm Kulkaran.\nI help premium dental clinics in Ludhiana increase implant enquiries using a modern, mobile-first website.\n\nI checked Dr. Narinder Dental Implant Center online — you're offering implants, but your online presence isn't showing that premium trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair doctor — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like implants usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "Dr. Narinder Kumar, I made a modern homepage preview for Dr. Narinder Dental Implant Center.\nIt's designed to build instant trust for high-ticket cases like implants.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking doctor — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated implants page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning Dr. Narinder Kumar 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "Doctor, I'm closing showroom previews today to focus on active projects.\nShould I keep Dr. Narinder Dental Implant Center's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-02T21:32:38.312Z"
+  },
+  {
+    "name": "GlowDent Spark Dental Clinic",
+    "doctorName": "Dr. Narinder Kumar, Dr. Rupinder Kaur Mahi",
+    "location": "Haibowal Dairy Complex, Main Hambran Rd, near Fire Station, opp. Doaba Sweets, New Kitchlu Nagar, Ludhiana, Punjab 141001",
+    "priority": "",
+    "specializations": [],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "085449 72016"
+      }
+    ],
+    "website": "http://www.glowdentspark.in/",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "Branch of DNDIC chain. \nInstagram: @glowdentsparkdentalclinic (72 followers) \nGoogle Rating: 5.0 (4 reviews) \nHours: Closes 7 pm\n\n---\n🛑 **BUSINESS MODEL DEEP DIVE (The Boutique Branch)**\n\n1. **The Role: Aesthetic & Comfort Center**\n   - **Vibe:** \"Glow\" and \"Spark\" suggest a focus on **Cosmetic Dentistry (Smile Design, Veneers)**.\n   - **Location Strategy:** Located on Hambran Road (New Kitchlu Nagar), a more upscale area. This branch targets premium clients/HNIs looking for \"comfort\" and \"beauty\" rather than just surgical utility.\n\n2. **Differentiation**\n   - Unlike the main surgical hub, this clinic sells *lifestyle* and *confidence*. The branding is softer and more modern.\n\n3. **Network Effect**\n   - It creates a \"Cross-Pollination\" effect. If a patient follows Dr. Narinder but wants a cosmetic makeover in a posh setting, they are funneled here.\n\n4. 🎯 **SALES ANGLE (The Pitch)**\n   - **Visual Selling:** This clinic needs a website section heavily focused on **Before/After Smile Makeovers**.\n   - **The \"Luxury\" Pitch:** \"Doctor, this branch is your 'premium showroom'. Your website needs to reflect that high-end vibe so patients don't hesitate to pay premium prices for veneers/aligners here.\"",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764679492613_2",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi Dr. Narinder Kumar, Dr. Rupinder Kaur Mahi, I'm Kulkaran.\nI help premium dental clinics in Ludhiana increase implant/aligner enquiries using a modern, mobile-first website.\n\nI checked GlowDent Spark Dental Clinic online — you're offering comprehensive dental services, but your online presence isn't showing that premium trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair doctor — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like comprehensive dental services usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "Dr. Narinder Kumar, Dr. Rupinder Kaur Mahi, I made a modern homepage preview for GlowDent Spark Dental Clinic.\nIt's designed to build instant trust for high-ticket cases like comprehensive dental services.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking doctor — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated comprehensive dental services page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning Dr. Narinder Kumar, Dr. Rupinder Kaur Mahi 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "Doctor, I'm closing showroom previews today to focus on active projects.\nShould I keep GlowDent Spark Dental Clinic's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-02T21:33:13.518Z"
+  },
+  {
+    "name": "Mahi Dental Care & Implant Center",
+    "doctorName": "Dr. Rupinder Kaur Mahi, Dr. Narinder Kumar",
+    "location": "Shop No. 09 & 10, Garcha Market, Kohara Macchiwara Link Rd, Main, Kohara Chowk, Kohara, Punjab 141112",
+    "priority": "",
+    "specializations": [
+      "Implants"
+    ],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "090566 33450"
+      }
+    ],
+    "website": "https://www.instagram.com/mahidentalcare",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "Branch of DNDIC chain. \nInstagram: @mahidentalcare (98 followers) \nInstagram: @doc_mahi \nGoogle Rating: 5.0 (1 review) \nHours: 9 am - 6 pm \nDr. Rupinder Kaur Mahi is a certified implantologist.\n\n---\n🛑 **BUSINESS MODEL DEEP DIVE (The Suburban Capture)**\n\n1. **The Role: The Geographic \"Catchment\"**\n   - **Location:** Kohara (Outskirts/Suburbs).\n   - **Operator:** Run by **Dr. Rupinder Kaur Mahi** (Certified Implantologist).\n   - **Strategy:** Captures the semi-urban/rural patient base. It prevents patients in the outskirts from needing to travel all the way to the city center (or going to a competitor).\n\n2. **Operational Efficiency**\n   - Dr. Rupinder acts as the specialist anchor here. It allows the group to service a completely different demographic without diluting the \"City Brand\" of the other two clinics.\n\n3. 🎯 **SALES ANGLE (The Pitch)**\n   - **Integration:** \"Dr. Narinder, you have patients in Kohara who might see your Reels but think you are too far away. We need to make it crystal clear on your website that 'Mahi Dental Care' is YOUR trusted branch nearby.\"\n   - **Lead Routing:** Use the CRM to automatically route leads from this area to this specific clinic's WhatsApp.",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764679492613_3"
+  },
+  {
+    "name": "Guru Nanak Dental Clinic",
+    "doctorName": "Dr. Dalip Singh",
+    "location": "Shop no. 5, East Mohan Nagar Market, near Gupta Bakery, Mohan Nagar, Amritsar, Punjab 143006",
+    "priority": "",
+    "specializations": [
+      "General Dentistry",
+      "Implants",
+      "Periodontics"
+    ],
+    "contacts": [
+      {
+        "type": "Clinic General",
+        "number": "099159 08277"
+      }
+    ],
+    "website": "https://www.facebook.com/gurunanakdentalclinic/",
+    "clientType": "A",
+    "status": "Night (Preparation)",
+    "notes": "Facebook: @gurunanakdentalclinic (74 followers)\nGoogle Rating: 4.4 (19 reviews)\nHours: Open · Closes 8:30 pm\n\n---\n🛑 **BUSINESS MODEL DEEP DIVE (The Neighborhood Authority)**\n\n1. **The Structure: Single-Owner Private Practice**\n   - Run by **Dr. Dalip Singh**. This is a classic \"Doctor-Entrepreneur\" model where the brand is tied directly to the owner's reputation in the community.\n\n2. **Location Strategy: Hyper-Local Market Hub**\n   - Located in **East Mohan Nagar Market**. This is a high-density residential and commercial pocket.\n   - **Strategy:** Convenience and Trust. They capture the \"walk-in\" and \"local referral\" traffic. If you live in Mohan Nagar, this is *your* dentist.\n\n3. **Operational Vibe: The \"All-Rounder\"**\n   - **Positioning:** \"SPECIALIZED FOR EVERY DENTAL TREATMENT\".\n   - They are not niche; they are the **One-Stop Shop** for the entire family. From kids' fillings to grandpa's dentures (and implants). Volume-based but aiming for retention.\n\n4. **Marketing Engine: Digital Sleeper**\n   - **Current State:** Weak digital footprint (74 FB likes).\n   - **Reliance:** Likely 90% Word-of-Mouth and Market Visibility (Signage).\n   - **Risk:** They are vulnerable to new, digitally-savvy clinics poaching their younger/high-ticket patients.\n\n5. **🎯 SALES ANGLE (The Pitch)**\n   - **The \"Service Menu\" Problem:** \"Dr. Dalip, you do *everything* (Implants, Perio, etc.), but online you just look like a general clinic. We need a website that creates specific pages for your High-Ticket services.\"\n   - **The \"Neighborhood Dominance\" Pitch:** \"You own the physical market in Mohan Nagar. Let's own the *Google Search* for 'Dentist in Mohan Nagar' too, so no one bypasses you.\"",
+    "coldCallChecklist": {
+      "0": false,
+      "1": false,
+      "2": false
+    },
+    "id": "clinic_1764681163675",
+    "personalizedTemplates": {
+      "chains": [
+        {
+          "chain_name": "Pre-Preview Outreach",
+          "description": "Messages BEFORE you share a preview (to pre-sell value)",
+          "color": "#0ea5e9",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Warm Opener (No Preview Yet)",
+              "timing": "First message",
+              "condition": "New lead, no preview sent",
+              "content": "Hi Dr. Dalip Singh, I'm Kulkaran.\nI help premium dental clinics in Amritsar increase implant/aligner enquiries using a modern, mobile-first website.\n\nI checked Guru Nanak Dental Clinic online — you're offering implants and periodontics, but your online presence isn't showing that premium trust.\n\nCan I show you a quick 10-second homepage preview?"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ If They Say 'We Don't Need Website'",
+              "timing": "When objection appears early",
+              "condition": "They say it's going fine without website",
+              "content": "Totally fair doctor — many clinics feel that way.\n\nThe only reason I reached out is because high-ticket services like implants and periodontics usually convert better when patients see:\n• before/after results\n• clear treatment trust\n• WhatsApp booking\n• premium clinic branding\n\nIf you're open, I'll share a small preview so you can see the difference."
+            }
+          ]
+        },
+        {
+          "chain_name": "Initial Outreach",
+          "description": "First contact WITH preview",
+          "color": "#3b82f6",
+          "templates": [
+            {
+              "id": "",
+              "title": "1️⃣ Preview Delivery Message",
+              "timing": "Immediately after creating preview",
+              "condition": "Preview PNG ready",
+              "content": "Dr. Dalip Singh, I made a modern homepage preview for Guru Nanak Dental Clinic.\nIt's designed to build instant trust for high-ticket cases like implants and periodontics.\n\nHere's the sample 👇\n{{preview_link_or_text}}"
+            },
+            {
+              "id": "",
+              "title": "2️⃣ Micro-Commitment Question",
+              "timing": "5-10 minutes after preview",
+              "condition": "They viewed image",
+              "content": "Should I expand this into a full homepage mockup for you?\nI'll show 2 styles so you can pick what matches your clinic."
+            },
+            {
+              "id": "",
+              "title": "3️⃣ Value Follow-Up (2 Hours)",
+              "timing": "2 hours after preview",
+              "condition": "No response",
+              "content": "Just checking doctor — did you get a chance to see it?\nIf you like the direction, I can also design a dedicated implants and periodontics page that converts more enquiries."
+            },
+            {
+              "id": "",
+              "title": "4️⃣ Next Morning Nudge",
+              "timing": "Next morning 7-9 AM",
+              "condition": "Still silent",
+              "content": "Good morning Dr. Dalip Singh 🙂\nQuick yes/no — should I keep working on your homepage mockup, or pause it for now?"
+            },
+            {
+              "id": "",
+              "title": "5️⃣ Soft Close (Day 3)",
+              "timing": "After 3 days",
+              "condition": "No commitment",
+              "content": "Doctor, I'm closing showroom previews today to focus on active projects.\nShould I keep Guru Nanak Dental Clinic's preview on hold if you plan to upgrade this month?"
+            }
+          ]
+        }
+      ]
+    },
+    "personalizedTemplatesGeneratedAt": "2025-12-02T21:39:05.339Z"
   }
 ]
